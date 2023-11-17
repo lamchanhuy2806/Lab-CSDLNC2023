@@ -1,0 +1,16 @@
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\bin\Debug\Lab01_3.1_ADB2023.exe.config
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\bin\Debug\Lab01_3.1_ADB2023.exe
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\bin\Debug\Lab01_3.1_ADB2023.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\bin\Debug\Db4objects.Db4o.dll
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\bin\Debug\Db4objects.Db4o.xml
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3.1_ADB2023.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3.1_ADB2023.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3._1_ADB2023.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3.1_ADB2023.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3.1_ADB2023.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3.1_ADB2023.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3.1_ADB2023.exe
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3.1_ADB2023.pdb
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3._1_ADB2023.Form1.resources
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3._1_ADB2023.FormSearchId.resources
+C:\Users\ASUS\OneDrive\Máy tính\Lab02-TMDT\Lab01_3.1_ADB2023\Lab01_3.1_ADB2023\obj\Debug\Lab01_3._1_ADB2023.FormSearchAge.resources
