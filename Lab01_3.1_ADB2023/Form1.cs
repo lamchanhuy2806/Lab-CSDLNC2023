@@ -28,7 +28,6 @@ namespace Lab01_3._1_ADB2023
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
             button_delete.Enabled= false; 
             UploadForm();
         }
@@ -52,7 +51,9 @@ namespace Lab01_3._1_ADB2023
         }
         private void UploadForm()
         {
-            textBox_Id.ReadOnly = false; 
+            textBox_FName.Text = "";
+            textBox_Id.Text = "";
+            textBox_LName.Text = "";
             List<Student> query = db.Query<Student>().ToList<Student>();
             if (query.Count != 0)
             {
@@ -121,17 +122,25 @@ namespace Lab01_3._1_ADB2023
         {
             db.Close();
             FormSearchId FormSearchId = new FormSearchId();
-            FormSearchId.ShowDialog(); 
-
+            FormSearchId.ShowDialog();
+            db = Manager.Database;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             db.Close();
             FormSearchAge FormSearchAge = new FormSearchAge();
-            FormSearchAge.ShowDialog(); 
+            FormSearchAge.ShowDialog();
+            db = Manager.Database;
         }
 
-       
+        private void button_SearchFull_Click(object sender, EventArgs e)
+        {
+            db.Close();
+            FormSearch FormSearch = new FormSearch();
+            FormSearch.ShowDialog();
+            db = Manager.Database;
+        }
+
     }
 }

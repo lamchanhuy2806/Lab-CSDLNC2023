@@ -45,6 +45,7 @@
             this.button_Update = new System.Windows.Forms.Button();
             this.button_Search = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button_SearchFull = new System.Windows.Forms.Button();
             this.groupStudentBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Student)).BeginInit();
             this.SuspendLayout();
@@ -62,9 +63,9 @@
             this.groupStudentBox.Controls.Add(this.FNameLabel);
             this.groupStudentBox.Controls.Add(this.IdLabel);
             this.groupStudentBox.Location = new System.Drawing.Point(33, 47);
-            this.groupStudentBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupStudentBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupStudentBox.Name = "groupStudentBox";
-            this.groupStudentBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupStudentBox.Padding = new System.Windows.Forms.Padding(4);
             this.groupStudentBox.Size = new System.Drawing.Size(679, 202);
             this.groupStudentBox.TabIndex = 0;
             this.groupStudentBox.TabStop = false;
@@ -75,18 +76,20 @@
             this.dateTimePicker_DoB.CustomFormat = "dd-MM-yyyy";
             this.dateTimePicker_DoB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker_DoB.Location = new System.Drawing.Point(492, 92);
-            this.dateTimePicker_DoB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker_DoB.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker_DoB.Name = "dateTimePicker_DoB";
             this.dateTimePicker_DoB.Size = new System.Drawing.Size(133, 22);
             this.dateTimePicker_DoB.TabIndex = 4;
             // 
             // dateTimePicker_YoA
             // 
+            this.dateTimePicker_YoA.AllowDrop = true;
             this.dateTimePicker_YoA.CustomFormat = "yyyy";
             this.dateTimePicker_YoA.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker_YoA.Location = new System.Drawing.Point(492, 47);
-            this.dateTimePicker_YoA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker_YoA.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker_YoA.Name = "dateTimePicker_YoA";
+            this.dateTimePicker_YoA.ShowUpDown = true;
             this.dateTimePicker_YoA.Size = new System.Drawing.Size(116, 22);
             this.dateTimePicker_YoA.TabIndex = 5;
             // 
@@ -215,7 +218,7 @@
             // button_Search
             // 
             this.button_Search.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button_Search.Location = new System.Drawing.Point(799, 153);
+            this.button_Search.Location = new System.Drawing.Point(863, 143);
             this.button_Search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Search.Name = "button_Search";
             this.button_Search.Size = new System.Drawing.Size(81, 49);
@@ -227,7 +230,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button1.Location = new System.Drawing.Point(928, 153);
+            this.button1.Location = new System.Drawing.Point(965, 143);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 49);
@@ -236,11 +239,24 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button_SearchFull
+            // 
+            this.button_SearchFull.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.button_SearchFull.Location = new System.Drawing.Point(754, 143);
+            this.button_SearchFull.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button_SearchFull.Name = "button_SearchFull";
+            this.button_SearchFull.Size = new System.Drawing.Size(81, 49);
+            this.button_SearchFull.TabIndex = 8;
+            this.button_SearchFull.Text = "Search";
+            this.button_SearchFull.UseVisualStyleBackColor = false;
+            this.button_SearchFull.Click += new System.EventHandler(this.button_SearchFull_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.button_SearchFull);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button_Search);
             this.Controls.Add(this.button_Update);
@@ -248,7 +264,7 @@
             this.Controls.Add(this.button_delete);
             this.Controls.Add(this.button_add);
             this.Controls.Add(this.groupStudentBox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Management";
@@ -279,6 +295,7 @@
         private System.Windows.Forms.Button button_Update;
         private System.Windows.Forms.Button button_Search;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_SearchFull;
     }
 }
 
