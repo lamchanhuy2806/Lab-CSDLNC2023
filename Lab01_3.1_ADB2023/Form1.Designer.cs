@@ -62,9 +62,9 @@
             this.groupStudentBox.Controls.Add(this.FNameLabel);
             this.groupStudentBox.Controls.Add(this.IdLabel);
             this.groupStudentBox.Location = new System.Drawing.Point(33, 47);
-            this.groupStudentBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupStudentBox.Margin = new System.Windows.Forms.Padding(4);
             this.groupStudentBox.Name = "groupStudentBox";
-            this.groupStudentBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupStudentBox.Padding = new System.Windows.Forms.Padding(4);
             this.groupStudentBox.Size = new System.Drawing.Size(679, 202);
             this.groupStudentBox.TabIndex = 0;
             this.groupStudentBox.TabStop = false;
@@ -75,7 +75,7 @@
             this.dateTimePicker_DoB.CustomFormat = "dd-MM-yyyy";
             this.dateTimePicker_DoB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker_DoB.Location = new System.Drawing.Point(492, 92);
-            this.dateTimePicker_DoB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker_DoB.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker_DoB.Name = "dateTimePicker_DoB";
             this.dateTimePicker_DoB.Size = new System.Drawing.Size(133, 22);
             this.dateTimePicker_DoB.TabIndex = 4;
@@ -85,8 +85,9 @@
             this.dateTimePicker_YoA.CustomFormat = "yyyy";
             this.dateTimePicker_YoA.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePicker_YoA.Location = new System.Drawing.Point(492, 47);
-            this.dateTimePicker_YoA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker_YoA.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker_YoA.Name = "dateTimePicker_YoA";
+            this.dateTimePicker_YoA.ShowUpDown = true;
             this.dateTimePicker_YoA.Size = new System.Drawing.Size(116, 22);
             this.dateTimePicker_YoA.TabIndex = 5;
             // 
@@ -248,7 +249,7 @@
             this.Controls.Add(this.button_delete);
             this.Controls.Add(this.button_add);
             this.Controls.Add(this.groupStudentBox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Management";
