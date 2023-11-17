@@ -67,6 +67,7 @@
             this.dateTimePicker_YoA.Location = new System.Drawing.Point(656, 58);
             this.dateTimePicker_YoA.Margin = new System.Windows.Forms.Padding(5);
             this.dateTimePicker_YoA.Name = "dateTimePicker_YoA";
+            this.dateTimePicker_YoA.ShowUpDown = true;
             this.dateTimePicker_YoA.Size = new System.Drawing.Size(153, 22);
             this.dateTimePicker_YoA.TabIndex = 5;
             // 

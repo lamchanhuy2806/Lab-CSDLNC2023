@@ -136,6 +136,8 @@ namespace Lab01_3._2_ADB2023
             db.Close();
             FormSearch FormSearch = new FormSearch();
             FormSearch.ShowDialog();
+            db = Manager.Database;
+
         }
     }
 }

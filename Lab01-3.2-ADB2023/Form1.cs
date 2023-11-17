@@ -51,7 +51,7 @@ namespace Lab01_3._2_ADB2023
             string code = textBox_CourseCode.Text;
             string name = textBox_CourseName.Text;
             List<Course> query = db.Query<Course>().Where(s => s.CourseCode == code).ToList<Course>();
-            String message = "Bạn có chắc xoá Mã sinh viên: " + name + " ?";
+            String message = "Bạn có chắc xoá Khóa học: " + name + " ?";
             String title = "Thông Báo!";
             MessageBoxButtons buttons = MessageBoxButtons.YesNo;
             DialogResult result = MessageBox.Show(message, title, buttons);
@@ -99,12 +99,15 @@ namespace Lab01_3._2_ADB2023
             ManagerStudent ManagerStudent = new ManagerStudent();
             ManagerStudent.ShowDialog();
             this.Close();
+            db = Manager.Database;
+
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             db.Close();
             this.Hide();
             this.Close();
+            db = Manager.Database;
         }
     }
 }
