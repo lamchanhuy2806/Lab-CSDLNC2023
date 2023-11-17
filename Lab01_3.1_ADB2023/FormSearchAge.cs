@@ -40,8 +40,7 @@ namespace Lab01_3._1_ADB2023
                 List<Student> query = db.Query<Student>().Where(s => s.Age == age).ToList<Student>();
                 dataGridView_Student.DataSource = query.ToList();
                 
-            }
-            db.Close();
+            } 
         }
 
         private void FormSearchAge_FormClosing(object sender, FormClosingEventArgs e)

@@ -121,7 +121,8 @@ namespace Lab01_3._1_ADB2023
         {
             db.Close();
             FormSearchId FormSearchId = new FormSearchId();
-            FormSearchId.ShowDialog(); 
+            FormSearchId.ShowDialog();
+            db = Manager.Database;
 
         }
 
@@ -129,9 +130,11 @@ namespace Lab01_3._1_ADB2023
         {
             db.Close();
             FormSearchAge FormSearchAge = new FormSearchAge();
-            FormSearchAge.ShowDialog(); 
+            FormSearchAge.ShowDialog();
+            db = Manager.Database;
+
         }
 
-       
+
     }
 }

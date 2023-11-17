@@ -41,7 +41,6 @@ namespace Lab01_3._1_ADB2023
                 dataGridView_Student.DataSource = query.ToList();
                 
             }
-            db.Close();
         }
 
         private void FormSearchId_FormClosing(object sender, FormClosingEventArgs e)
