@@ -188,8 +188,9 @@
             this.button_Search.Name = "button_Search";
             this.button_Search.Size = new System.Drawing.Size(116, 50);
             this.button_Search.TabIndex = 13;
-            this.button_Search.Text = "SearchById";
+            this.button_Search.Text = "Search";
             this.button_Search.UseVisualStyleBackColor = false;
+            this.button_Search.Click += new System.EventHandler(this.button_Search_Click);
             // 
             // button_add
             // 

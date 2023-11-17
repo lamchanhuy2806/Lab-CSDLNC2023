@@ -130,5 +130,12 @@ namespace Lab01_3._2_ADB2023
             db.Commit();
             UploadForm();
         }
+
+        private void button_Search_Click(object sender, EventArgs e)
+        {
+            db.Close();
+            FormSearch FormSearch = new FormSearch();
+            FormSearch.ShowDialog();
+        }
     }
 }
