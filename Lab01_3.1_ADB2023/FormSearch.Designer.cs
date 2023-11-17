@@ -30,6 +30,7 @@
         {
             this.dataGridView_Student = new System.Windows.Forms.DataGridView();
             this.groupStudentBox = new System.Windows.Forms.GroupBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.dateTimePicker_YoA = new System.Windows.Forms.DateTimePicker();
             this.textBox_LName = new System.Windows.Forms.TextBox();
             this.textBox_Id = new System.Windows.Forms.TextBox();
@@ -38,7 +39,6 @@
             this.FNameLabel = new System.Windows.Forms.Label();
             this.IdLabel = new System.Windows.Forms.Label();
             this.button_SearchFull = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Student)).BeginInit();
             this.groupStudentBox.SuspendLayout();
             this.SuspendLayout();
@@ -74,6 +74,19 @@
             this.groupStudentBox.TabIndex = 3;
             this.groupStudentBox.TabStop = false;
             this.groupStudentBox.Text = "Student";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(13, 87);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(140, 20);
+            this.checkBox1.TabIndex = 6;
+            this.checkBox1.Text = "Year Of Admission";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // dateTimePicker_YoA
             // 
@@ -152,16 +165,6 @@
             this.button_SearchFull.Text = "Search";
             this.button_SearchFull.UseVisualStyleBackColor = false;
             this.button_SearchFull.Click += new System.EventHandler(this.button_SearchFull_Click);
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(13, 87);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(140, 20);
-            this.checkBox1.TabIndex = 6;
-            this.checkBox1.Text = "Year Of Admission";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // FormSearch
             // 

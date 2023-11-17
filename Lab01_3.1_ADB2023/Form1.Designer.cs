@@ -43,8 +43,6 @@
             this.button_delete = new System.Windows.Forms.Button();
             this.dataGridView_Student = new System.Windows.Forms.DataGridView();
             this.button_Update = new System.Windows.Forms.Button();
-            this.button_Search = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.button_SearchFull = new System.Windows.Forms.Button();
             this.groupStudentBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Student)).BeginInit();
@@ -215,30 +213,6 @@
             this.button_Update.UseVisualStyleBackColor = false;
             this.button_Update.Click += new System.EventHandler(this.button_Update_Click);
             // 
-            // button_Search
-            // 
-            this.button_Search.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button_Search.Location = new System.Drawing.Point(863, 143);
-            this.button_Search.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button_Search.Name = "button_Search";
-            this.button_Search.Size = new System.Drawing.Size(81, 49);
-            this.button_Search.TabIndex = 6;
-            this.button_Search.Text = "SearchById";
-            this.button_Search.UseVisualStyleBackColor = false;
-            this.button_Search.Click += new System.EventHandler(this.button_Search_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button1.Location = new System.Drawing.Point(965, 143);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 49);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "SearchByAge";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // button_SearchFull
             // 
             this.button_SearchFull.BackColor = System.Drawing.Color.PaleTurquoise;
@@ -257,8 +231,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.button_SearchFull);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button_Search);
             this.Controls.Add(this.button_Update);
             this.Controls.Add(this.dataGridView_Student);
             this.Controls.Add(this.button_delete);
@@ -293,8 +265,6 @@
         private System.Windows.Forms.Button button_delete;
         private System.Windows.Forms.DataGridView dataGridView_Student;
         private System.Windows.Forms.Button button_Update;
-        private System.Windows.Forms.Button button_Search;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button_SearchFull;
     }
 }

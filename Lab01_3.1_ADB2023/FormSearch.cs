@@ -38,7 +38,7 @@ namespace Lab01_3._1_ADB2023
             {
                 query = query.Where(s => s.LastName == lname).ToList<Student>();
             }
-            if (year != 0)
+            if (year != 0 && dateTimePicker_YoA.Visible)
             {
                 query = query.Where(s => s.YearOfAdmission.Year == year).ToList<Student>();
             }
@@ -60,6 +60,10 @@ namespace Lab01_3._1_ADB2023
             db.Close();
         }
 
-
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!checkBox1.Checked) dateTimePicker_YoA.Visible = false;
+            else dateTimePicker_YoA.Visible =true;
+        }
     }
 }
